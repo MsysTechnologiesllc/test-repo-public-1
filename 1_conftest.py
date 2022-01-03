@@ -11,6 +11,9 @@ def setUp():
     
     
     
+    
+    
+    
 
 @pytest.yield_fixture(scope="class")
 def oneTimeSetUp(request, browser):
