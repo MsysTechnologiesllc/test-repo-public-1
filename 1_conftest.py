@@ -16,8 +16,7 @@ def oneTimeSetUp(request, browser):
     lp = LoginPage(driver)
     lp.login("test@email.com", "abcabc")
 
-    
-    
+
     if request.cls is not None:
         request.cls.driver = driver
     yield driver
